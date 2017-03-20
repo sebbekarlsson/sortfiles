@@ -25,7 +25,7 @@ for item in items:
     ext_dir = '{}/{}'.format(directory, extension.replace('.', ''))
     
     if not os.path.isdir(item) and not os.path.islink(item):
-        if not os.path.isdir(ext_dir):
+        if not os.path.exists(ext_dir):
             os.makedirs(ext_dir)
 
         try:
