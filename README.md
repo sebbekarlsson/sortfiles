@@ -27,4 +27,8 @@
 ## Installation
 > Simply run:
 
-        sudo ./install.sh
+    sudo python setup.py install
+
+> Or:
+
+    pip install sortfiles
